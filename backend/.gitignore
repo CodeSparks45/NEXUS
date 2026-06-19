@@ -1,0 +1,13 @@
+# Dependency directories
+node_modules/
+
+# Environment variables
+.env
+
+# WhatsApp Auth files (Security & Size)
+.wwebjs_auth/
+.wwebjs_cache/
+
+# System files
+.DS_Store
+*.log

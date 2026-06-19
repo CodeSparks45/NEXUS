@@ -1,0 +1,24 @@
+{
+  "name": "nexus-backend",
+  "version": "1.0.0",
+  "description": "NEXUS AI Companion - Core Router & Agents",
+  "main": "src/core-router/index.js",
+  "scripts": {
+    "start": "node src/core-router/index.js",
+    "dev": "nodemon src/core-router/index.js"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "qrcode-terminal": "^0.12.0",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7",
+    "uuid": "^10.0.0",
+    "whatsapp-web.js": "^1.34.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
