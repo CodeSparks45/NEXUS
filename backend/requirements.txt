@@ -1,0 +1,21 @@
+# NEXUS Voice Module — Python Requirements
+# Install with: pip install -r requirements.txt
+
+# Core audio
+sounddevice>=0.4.6
+scipy>=1.11.0
+numpy>=1.24.0
+
+# Speech-to-text
+openai-whisper>=20231117
+
+# AI
+google-generativeai>=0.8.0
+requests>=2.31.0
+
+# Text-to-speech (local, free)
+pyttsx3>=2.90
+
+# Optional: premium ElevenLabs voice
+# elevenlabs>=1.0.0
+# soundfile>=0.12.1

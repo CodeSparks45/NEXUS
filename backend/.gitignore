@@ -11,3 +11,9 @@ node_modules/
 # System files
 .DS_Store
 *.log
+
+
+voice-env/
+__pycache__/
+*.pyc
+.env
