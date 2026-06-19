@@ -11,7 +11,7 @@ const { buildMessage, buildError } = require("../../utils");
 const genAI = new GoogleGenerativeAI(process.env.GOOGLE_API_KEY);
 
 // ─── Model — use gemini-2.0-flash (stable & fast) ────────────────────────────
-const MODEL = "gemini-2.5-flash";
+const MODEL = "gemini-2.5-pro";
 
 // ─── Intent Handlers ──────────────────────────────────────────────────────────
 

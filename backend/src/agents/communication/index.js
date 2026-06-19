@@ -15,7 +15,7 @@ const { buildMessage, buildError } = require("../../utils");
 const { initWhatsApp, sendWhatsAppMessage } = require("./whatsapp");
 
 const genAI = new GoogleGenerativeAI(process.env.GOOGLE_API_KEY);
-const MODEL = "gemini-2.5-flash";
+const MODEL = "gemini-2.5-pro";
 
 // ─── Draft a reply ─────────────────────────────────────────────────────────────
 
